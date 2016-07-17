@@ -1,13 +1,19 @@
 # RestSpringMvcSampleApp
 
 Run the tests:
+===
 
-```
 $ mvn test
-```
 
-Run the app:
 
-```
-mvn exec:java -Dexec.mainClass="com.lessard.App"
-```
+
+Start the tomcat application server:
+===
+
+mvn clean install tomcat7:run
+
+
+Url of the Application:
+===
+
+http://localhost:8080/RestSpringMvcSampleApp/hello
