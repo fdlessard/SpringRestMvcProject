@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestSpringMvcSampleController {
 
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	//@RequestMapping(value = "/hello", method = RequestMethod.GET, produces = "application/json")
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public ResponseEntity<String> hello() {
 		 return new ResponseEntity<String>("Bonjour", HttpStatus.OK);
 	}

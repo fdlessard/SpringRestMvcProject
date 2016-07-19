@@ -1,7 +1,9 @@
 package com.lessard;
 
-import org.junit.Test;
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.springframework.test.web.servlet.MockMvc;
 
 /**
  * Unit test for simple SpringMcvSampleController.
@@ -9,6 +11,9 @@ import static org.junit.Assert.assertTrue;
 public class RestSpringMcvSampleControllerTest
 {
 
+	
+	private MockMvc mockMvc;
+	
     /**
      * Rigourous Test :-)
      */
