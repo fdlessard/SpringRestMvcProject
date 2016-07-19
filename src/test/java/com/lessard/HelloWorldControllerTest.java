@@ -8,7 +8,7 @@ import org.springframework.test.web.servlet.MockMvc;
 /**
  * Unit test for simple SpringMcvSampleController.
  */
-public class RestSpringMcvSampleControllerTest
+public class HelloWorldControllerTest
 {
 
 	
