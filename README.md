@@ -1,6 +1,7 @@
 # Rest SpringMvc Sample Application
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/fdlessard/maven_template_app/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/fdlessard/RestSpringMvcProject.svg)](https://travis-ci.org/fdlessard/RestSpringMvcProject)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/fdlessard/RestSpringMvcProject/blob/master/LICENSE)
 
 Run the tests:
 ===
