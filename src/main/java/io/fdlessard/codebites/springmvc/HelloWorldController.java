@@ -1,4 +1,4 @@
-package com.lessard.codesamples.springmvc;
+package io.fdlessard.codebites.springmvc;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

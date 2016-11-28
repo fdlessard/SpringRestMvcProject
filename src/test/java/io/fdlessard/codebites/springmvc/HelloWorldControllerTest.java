@@ -1,4 +1,4 @@
-package com.lessard.codesamples.springmvc;
+package io.fdlessard.codebites.springmvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -8,8 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-
-import com.lessard.codesamples.springmvc.HelloWorldController;
 
 /**
  * Unit test for simple SpringMcvSampleController.
